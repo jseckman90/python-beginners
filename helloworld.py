@@ -15,3 +15,14 @@ print(age)
 user_weight = input('Weight in lbs? ')
 lbs_to_kg = int(user_weight) * .453592
 print(lbs_to_kg)
+
+
+
+string = '100 Days of Code'
+
+print(string)
+print(string[0])
+print(string[0:4])
+print(string[-1])
+print(string[1:-1])
+print(string[:])
