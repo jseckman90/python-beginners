@@ -56,6 +56,8 @@ print(challenge.upper())
 # Lower - creates a new string and returns it lowercased
 print(challenge.lower())
 
+# Find - find index of what is passed in.  Case sensitive
+print(challenge.find('Days'))
 
 
 
