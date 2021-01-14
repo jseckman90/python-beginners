@@ -32,11 +32,30 @@
 # Formatted Strings
 ###################
 
-first_name = "Josh"
-last_name = "Seckman"
+# first_name = "Josh"
+# last_name = "Seckman"
 
-message = first_name + ' [' + last_name + '] is a coder'
-msg = f'{first_name} [{last_name}] is a coder'
-print(message)
-print(msg)
+# message = first_name + ' [' + last_name + '] is a coder'
+# msg = f'{first_name} [{last_name}] is a coder'
+# print(message)
+# print(msg)
+
+
+###################
+# String Methods
+###################
+challenge = '100 Days of Code'
+
+#  Len - returns number of characters including spaces
+
+print(len(challenge))
+
+# Upper - creates a new string and returns it capitalized
+print(challenge.upper())
+
+# Lower - creates a new string and returns it lowercased
+print(challenge.lower())
+
+# Find
+print(challenge.find('Days'))
 
