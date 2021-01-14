@@ -59,5 +59,9 @@ print(challenge.lower())
 # Find - find index of what is passed in.  Case sensitive
 print(challenge.find('Days'))
 
+# Replace - replace a character or sequence of characters.  first argument is what you want to replace, and the second argument is what is replacing the first argument.  Case sensitive
+print(challenge.replace('Days', 'Years'))
 
+# in operator - check to see if the string contains a character or sequence of characters. returns boolean. case sensitive
+print('Days' in challenge)
 
