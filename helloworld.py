@@ -53,9 +53,6 @@ print(len(challenge))
 # Upper - creates a new string and returns it capitalized
 print(challenge.upper())
 
-# Lower - creates a new string and returns it lowercased
-print(challenge.lower())
 
-# Find
-print(challenge.find('Days'))
+
 
