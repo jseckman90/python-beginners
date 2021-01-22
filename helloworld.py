@@ -46,8 +46,7 @@
 ###################
 challenge = '100 Days of Code'
 
-#  Len - returns number of characters including spaces
-
+# Len - returns number of characters including spaces
 print(len(challenge))
 
 # Upper - creates a new string and returns it capitalized
@@ -64,4 +63,10 @@ print(challenge.replace('Days', 'Years'))
 
 # in operator - check to see if the string contains a character or sequence of characters. returns boolean. case sensitive
 print('Days' in challenge)
+output = 16
+output = 100 DAYS OF CODE
+output = 100 days of code
+output = 4
+output = 100 Years of Code
+output = True
 
